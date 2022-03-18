@@ -1,0 +1,26 @@
+/*you have to print star in such a way that your star must look like given pattern
+* * * * * 
+* * * * *
+* * * * *
+* * * * *
+
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"enter number of stars:";
+    cin>>n;
+    int i,j;
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            cout<<"*"<<" ";
+
+        }
+        cout<<" "<<endl;;
+    }
+    return 0;
+}
