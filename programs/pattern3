@@ -1,0 +1,30 @@
+/*printing of numbers in such a way  
+        *
+      * *
+    * * *
+  * * * *
+ */
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i,j;
+    int n;
+    cout<<"enter the number to be printed :";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+      
+       for(j=1;j<=n;j++)
+       {
+         if(j<=n-i){
+           cout<<" ";
+         }
+         else{
+           cout<<" *";
+         }
+       }
+        cout<<endl; 
+    }
+    return 0;
+}
